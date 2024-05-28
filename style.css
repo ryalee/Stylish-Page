@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Calistoga&family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Krub';
+}
+
+header {
+  display: flex;
+  flex-direction: row;  
+  border: 1px solid #000;
+  margin: 20px;
+  border-radius: 20px;
+  padding: 10px 30px;
+  align-items: center;
+}
+
+.logo h1 {
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+  font-size: 22pt;
+}
+
+header nav {
+  margin-left: 490px;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 400px;
+  margin-left: -200px;
+  align-items: center;
+}
+
+.menu a {
+  list-style: none;
+  text-decoration: none;
+  color: #000;
+  font-family: 'Krub';
+  font-weight: 500;
+}
+
+.search {
+  padding: 10px;
+}
+
+.search input {
+  background-color: #e6e6e6;
+  padding: 8px 0 8px 32px;
+  border: none;
+  border-radius: 20px;
+}
+
+.search input:focus {
+  outline: none;
+}
+
+.search i {
+  position: absolute;
+  padding: 8px;
+  color: #646464;
+}
+
+.sideMenu {
+  display: flex;
+  align-items: center;
+  width: 60px;
+  justify-content: space-between;
+}
+
+.sideMenu i {
+  font-size: 14pt;
+  color: #000;
+}
+
+main {
+  margin: 40px;
+}
+
+.heroContent {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.intro {
+  background-color: #e6e6e6;
+  width: 670px;
+  height: 370px;
+  padding: 15px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.intro h1 {
+  font-family: 'Anton';
+  text-transform: uppercase;
+  font-size: 50pt;
+  width: 500px;
+}
+
+.intro p {
+  font-size: 13pt;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.mainSide img  {
+  width: 500px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.bottomSide {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 700px;
+  margin-top: 425px;
+}
+
+.bottomSide img {
+  width: 300px;
+  border-radius: 20px;
+}
+
+.buttonsZone {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 380px;
+  align-items: center;
+  text-align: center;
+  margin-top: -60px;
+}
+
+.btn1, 
+.btn2 {
+  padding: 10px;
+  width: 140px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+  margin-left: 40px;
+  border: 2px solid;
+  font-weight: bold;
+  transition: .3s;
+  opacity: .7;
+  cursor: pointer;
+}
+
+.btn1 i,
+.btn2 i {
+  background-color: #000;
+  color: #fff;
+  padding: 14px;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  align-self: center;
+  text-align: center;
+  margin-left: 90px;
+  border-radius: 20px;
+  border: none;
+}
+
+.btn1:hover, 
+.btn2:hover {
+  opacity: 1;
+}
